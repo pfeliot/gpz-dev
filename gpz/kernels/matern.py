@@ -51,7 +51,7 @@ class Matern(Stationary):
     """
     def __init__(self, dim = 1, sigma = 1, theta = 1, order = 2, **kwargs):
         Stationary.__init__(self, dim, sigma, theta, **kwargs)
-        self.__set_order = order
+        self.__set_order(order)
         
     def __set_order(self, order):
         try:

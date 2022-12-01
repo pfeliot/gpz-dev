@@ -1,2 +1,2 @@
 # gpz-dev
-Gaussian process regression pckage
+Gaussian process regression package

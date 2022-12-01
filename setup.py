@@ -17,7 +17,7 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="",
-    packages=['gpz'],
+    packages=setuptools.find_packages(),
     install_requires = requirements,
     python_requires='>=3.6',
 )
